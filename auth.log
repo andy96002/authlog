@@ -1,0 +1,194 @@
+Sep 26 08:38:28 jason-sa newsyslog[656]: logfile first created
+Sep 26 00:38:39 jason-sa sshd[826]: Server listening on :: port 22.
+Sep 26 00:38:39 jason-sa sshd[826]: Server listening on 0.0.0.0 port 22.
+Sep 26 00:38:47 jason-sa login[852]: login on ttyv0 as jason
+Sep 26 00:39:30 jason-sa su[868]: BAD SU jason to root on /dev/ttyv0
+Sep 26 00:39:34 jason-sa su[870]: jason to root on /dev/ttyv0
+Sep 26 00:49:20 jason-sa sudo[2139]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/whoami
+Sep 26 00:49:34 jason-sa sudo[2141]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/pkg install vim
+Sep 26 00:51:22 jason-sa sudo[2376]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/freebsd-update install
+Sep 26 00:51:32 jason-sa sudo[2611]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/freebsd-update fetch install
+Sep 26 00:54:00 jason-sa sudo[9430]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/freebsd-update fetch install
+Sep 26 00:54:42 jason-sa sudo[11915]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/sbin/reboot
+Sep 26 00:55:43 jason-sa sshd[790]: Server listening on :: port 22.
+Sep 26 00:55:43 jason-sa sshd[790]: Server listening on 0.0.0.0 port 22.
+Sep 26 00:55:50 jason-sa login[811]: login on ttyv0 as jason
+Sep 26 00:56:26 jason-sa login[825]: login on ttyv0 as judge
+Sep 26 00:56:36 jason-sa sudo[829]:    judge : TTY=ttyv0 ; PWD=/usr/home/judge ; USER=root ; COMMAND=/usr/sbin/pkg install vim
+Sep 26 00:56:50 jason-sa sudo[832]:    judge : TTY=ttyv0 ; PWD=/usr/home/judge ; USER=root ; COMMAND=/usr/bin/whoami
+Sep 26 00:57:37 jason-sa login[835]: login on ttyv0 as jason
+Sep 26 00:57:44 jason-sa login[840]: login on ttyv0 as jason
+Sep 26 01:00:54 jason-sa sudo[863]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/pkg install sl
+Sep 26 01:04:36 jason-sa sudo[870]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/fetch https://nasa.cs.nctu.edu.tw/sa/2021/nasakey.pub
+Sep 26 01:05:54 jason-sa sudo[876]:    jason : TTY=ttyv0 ; PWD=/usr/home/judge ; USER=root ; COMMAND=/bin/mkdir .ssh
+Sep 26 01:06:55 jason-sa login[886]: login on ttyv0 as judge
+Sep 26 01:10:22 jason-sa su[897]: judge to root on /dev/ttyv0
+Sep 26 01:32:21 jason-sa sshd[897]: Server listening on :: port 22.
+Sep 26 01:32:21 jason-sa sshd[897]: Server listening on 0.0.0.0 port 22.
+Sep 26 01:32:55 jason-sa login[917]: login on ttyv0 as root
+Sep 26 01:32:55 jason-sa login[917]: ROOT LOGIN (root) ON ttyv0
+Sep 26 01:38:00 jason-sa sshd[893]: Server listening on :: port 22.
+Sep 26 01:38:00 jason-sa sshd[893]: Server listening on 0.0.0.0 port 22.
+Sep 26 01:38:04 jason-sa login[913]: login on ttyv0 as root
+Sep 26 01:38:04 jason-sa login[913]: ROOT LOGIN (root) ON ttyv0
+Sep 26 01:38:33 jason-sa sshd[929]: Accepted publickey for judge from 10.113.0.254 port 38516 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:33 jason-sa sshd[931]: Received disconnect from 10.113.0.254 port 38516:11: disconnected by user
+Sep 26 01:38:33 jason-sa sshd[931]: Disconnected from user judge 10.113.0.254 port 38516
+Sep 26 01:38:33 jason-sa sshd[933]: Accepted publickey for judge from 10.113.0.254 port 38518 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:33 jason-sa sshd[935]: Received disconnect from 10.113.0.254 port 38518:11: disconnected by user
+Sep 26 01:38:33 jason-sa sshd[935]: Disconnected from user judge 10.113.0.254 port 38518
+Sep 26 01:38:33 jason-sa sshd[937]: Connection closed by 10.113.0.254 port 38520 [preauth]
+Sep 26 01:38:35 jason-sa sshd[939]: Accepted publickey for judge from 10.113.0.254 port 38524 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:35 jason-sa sshd[941]: Received disconnect from 10.113.0.254 port 38524:11: disconnected by user
+Sep 26 01:38:35 jason-sa sshd[941]: Disconnected from user judge 10.113.0.254 port 38524
+Sep 26 01:38:35 jason-sa sshd[946]: Accepted publickey for judge from 10.113.0.254 port 38526 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:35 jason-sa sshd[948]: Received disconnect from 10.113.0.254 port 38526:11: disconnected by user
+Sep 26 01:38:35 jason-sa sshd[948]: Disconnected from user judge 10.113.0.254 port 38526
+Sep 26 01:38:36 jason-sa sshd[950]: Accepted publickey for judge from 10.113.0.254 port 38528 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:36 jason-sa sshd[952]: Received disconnect from 10.113.0.254 port 38528:11: disconnected by user
+Sep 26 01:38:36 jason-sa sshd[952]: Disconnected from user judge 10.113.0.254 port 38528
+Sep 26 01:38:36 jason-sa sshd[954]: Accepted publickey for judge from 10.113.0.254 port 38530 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:36 jason-sa sudo[957]:    judge : PWD=/usr/home/judge ; USER=root ; COMMAND=/usr/bin/whoami
+Sep 26 01:38:36 jason-sa sshd[956]: Received disconnect from 10.113.0.254 port 38530:11: disconnected by user
+Sep 26 01:38:36 jason-sa sshd[956]: Disconnected from user judge 10.113.0.254 port 38530
+Sep 26 01:38:37 jason-sa sshd[959]: Accepted publickey for judge from 10.113.0.254 port 38532 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:37 jason-sa sshd[961]: Received disconnect from 10.113.0.254 port 38532:11: disconnected by user
+Sep 26 01:38:37 jason-sa sshd[961]: Disconnected from user judge 10.113.0.254 port 38532
+Sep 26 01:38:37 jason-sa sshd[965]: Accepted publickey for judge from 10.113.0.254 port 38534 ssh2: RSA SHA256:FKznGEAAy6gcVC4x+JpiTo34zbaHRYIc9WShzqR+yF4
+Sep 26 01:38:37 jason-sa sshd[967]: Received disconnect from 10.113.0.254 port 38534:11: disconnected by user
+Sep 26 01:38:37 jason-sa sshd[967]: Disconnected from user judge 10.113.0.254 port 38534
+Sep 26 01:48:49 jason-sa sshd[891]: Server listening on :: port 22.
+Sep 26 01:48:49 jason-sa sshd[891]: Server listening on 0.0.0.0 port 22.
+Sep 26 01:49:14 jason-sa login[912]: login on ttyv0 as jason
+Oct  9 16:28:15 jason-sa sshd[914]: Server listening on :: port 22.
+Oct  9 16:28:15 jason-sa sshd[914]: Server listening on 0.0.0.0 port 22.
+Oct  9 16:33:45 jason-sa login[935]: login on ttyv0 as jason
+Oct  9 16:54:16 jason-sa sshd[901]: Server listening on :: port 22.
+Oct  9 16:54:16 jason-sa sshd[901]: Server listening on 0.0.0.0 port 22.
+Oct  9 16:54:54 jason-sa login[922]: login on ttyv0 as jason
+Oct  9 16:58:35 jason-sa sudo[948]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/service ssh status
+Oct  9 16:58:47 jason-sa sudo[951]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/sbin/service sshd status
+Oct  9 16:59:42 jason-sa sshd[958]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 64273 ssh2
+Oct  9 17:00:16 jason-sa sshd[961]: Received disconnect from 10.0.2.2 port 64273:11: disconnected by user
+Oct  9 17:00:16 jason-sa sshd[961]: Disconnected from user jason 10.0.2.2 port 64273
+Oct  9 17:01:05 jason-sa sshd[977]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 53756 ssh2
+Oct  9 17:01:42 jason-sa su[990]: jason to root on /dev/pts/0
+Oct  9 17:02:08 jason-sa login[994]: login on pts/0 as jason
+Oct  9 22:48:54 jason-sa sudo[1415]:    jason : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/cat auth.log
+Oct  9 22:49:10 jason-sa sudo[1417]:    jason : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/wc auth.log
+Oct  9 22:49:26 jason-sa sudo[1424]:    jason : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vi auth.log
+Oct  9 23:40:14 jason-sa sudo[1511]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct  9 23:41:31 jason-sa login[990]: 2 LOGIN FAILURES ON pts/0
+Oct  9 23:41:31 jason-sa login[990]: 2 LOGIN FAILURES ON pts/0, jason
+Oct  9 23:41:35 jason-sa login[990]: pam_acct_mgmt(): Authentication error
+Oct  9 23:41:49 jason-sa login[990]: 2 LOGIN FAILURES ON pts/0
+Oct  9 23:41:49 jason-sa login[990]: 2 LOGIN FAILURES ON pts/0, root
+Oct  9 23:41:50 jason-sa login[990]: login on pts/0 as jason
+Oct  9 23:42:07 jason-sa sudo[1517]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct  9 23:43:03 jason-sa login[1513]: pam_acct_mgmt(): Authentication error
+Oct  9 23:43:08 jason-sa login[1513]: login on pts/0 as jason
+Oct  9 23:43:11 jason-sa sudo[1523]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 00:02:59 jason-sa sshd[980]: Received disconnect from 10.0.2.2 port 53756:11: disconnected by user
+Oct 10 00:02:59 jason-sa sshd[980]: Disconnected from user jason 10.0.2.2 port 53756
+Oct 10 00:42:07 jason-sa sshd[913]: Server listening on :: port 22.
+Oct 10 00:42:07 jason-sa sshd[913]: Server listening on 0.0.0.0 port 22.
+Oct 10 00:45:37 jason-sa login[934]: 2 LOGIN FAILURES ON ttyv0
+Oct 10 00:45:37 jason-sa login[934]: 2 LOGIN FAILURES ON ttyv0, jason
+Oct 10 00:45:46 jason-sa login[934]: login on ttyv0 as jason
+Oct 10 00:46:07 jason-sa sudo[955]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Oct 10 00:50:51 jason-sa login[960]: login on ttyv0 as jason
+Oct 10 00:50:58 jason-sa sudo[965]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Oct 10 00:51:43 jason-sa sudo[968]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Oct 10 00:51:48 jason-sa sudo[971]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Oct 10 00:51:59 jason-sa sudo[974]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Oct 10 00:52:18 jason-sa sudo[976]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/local/bin/vim /var/log/auth.log
+Oct 10 00:57:23 jason-sa sshd[988]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 51846 ssh2
+Oct 10 00:57:39 jason-sa sudo[996]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 00:58:43 jason-sa login[998]: login on ttyv0 as judge
+Oct 10 00:58:49 jason-sa sudo[1002]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 00:59:26 jason-sa sudo[1006]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 01:00:29 jason-sa sudo[1019]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 01:00:51 jason-sa login[1005]: 2 LOGIN FAILURES ON ttyv0
+Oct 10 01:00:51 jason-sa login[1005]: 2 LOGIN FAILURES ON ttyv0, root
+Oct 10 01:01:20 jason-sa sudo[1023]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 01:01:43 jason-sa login[1005]: 3 LOGIN FAILURES ON ttyv0
+Oct 10 01:01:43 jason-sa login[1005]: 3 LOGIN FAILURES ON ttyv0, jason
+Oct 10 01:03:01 jason-sa login[1005]: login on ttyv0 as jason
+Oct 10 01:03:38 jason-sa sudo[1029]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 01:08:31 jason-sa sudo[1034]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 10 02:53:42 jason-sa login[1164]: login on ttyv0 as root
+Oct 10 02:53:42 jason-sa login[1164]: ROOT LOGIN (root) ON ttyv0
+Oct 10 02:54:01 jason-sa sshd[991]: Received disconnect from 10.0.2.2 port 51846:11: disconnected by user
+Oct 10 02:54:01 jason-sa sshd[991]: Disconnected from user jason 10.0.2.2 port 51846
+Oct 10 02:56:26 jason-sa sshd[1177]: error: PAM: Authentication error for root from 10.0.2.2
+Oct 10 02:56:51 jason-sa syslogd: last message repeated 2 times
+Oct 10 02:56:51 jason-sa sshd[1177]: Connection reset by authenticating user root 10.0.2.2 port 58966 [preauth]
+Oct 10 02:57:59 jason-sa login[1183]: 5 LOGIN FAILURES ON ttyv0
+Oct 10 02:57:59 jason-sa login[1183]: 5 LOGIN FAILURES ON ttyv0, root
+Oct 10 02:58:00 jason-sa login[1183]: login on ttyv0 as jason
+Oct 10 02:58:06 jason-sa login[1188]: login on ttyv0 as root
+Oct 10 02:58:06 jason-sa login[1188]: ROOT LOGIN (root) ON ttyv0
+Oct 10 02:58:13 jason-sa sshd[1192]: error: PAM: Authentication error for root from 10.0.2.2
+Oct 10 02:58:17 jason-sa syslogd: last message repeated 2 times
+Oct 10 02:58:17 jason-sa sshd[1192]: Connection reset by authenticating user root 10.0.2.2 port 51580 [preauth]
+Oct 10 02:58:26 jason-sa sshd[1197]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 51583 ssh2
+Oct 10 02:58:26 jason-sa sshd[1200]: Received disconnect from 10.0.2.2 port 51583:11: disconnected by user
+Oct 10 02:58:26 jason-sa sshd[1200]: Disconnected from user jason 10.0.2.2 port 51583
+Oct 10 02:58:47 jason-sa login[1205]: login on ttyv0 as jason
+Oct 10 02:59:17 jason-sa sudo[1211]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cp /var/log/auth.log
+Oct 10 02:59:27 jason-sa sudo[1214]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cp /var/log/auth.log auth.log
+Oct 10 03:01:08 jason-sa sshd[1382]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 53941 ssh2
+Oct 10 03:01:08 jason-sa sshd[1385]: Received disconnect from 10.0.2.2 port 53941:11: disconnected by user
+Oct 10 03:01:08 jason-sa sshd[1385]: Disconnected from user jason 10.0.2.2 port 53941
+Oct 10 03:01:44 jason-sa sudo[1509]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi auth.log
+Oct 10 03:02:02 jason-sa sudo[1512]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi auth.log
+Oct 10 03:02:35 jason-sa sudo[1515]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat auth.log
+Oct 10 03:03:03 jason-sa sshd[1520]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 49524 ssh2
+Oct 10 03:03:03 jason-sa sshd[1523]: Received disconnect from 10.0.2.2 port 49524:11: disconnected by user
+Oct 10 03:03:03 jason-sa sshd[1523]: Disconnected from user jason 10.0.2.2 port 49524
+Oct 10 14:51:34 jason-sa sshd[913]: Server listening on :: port 22.
+Oct 10 14:51:34 jason-sa sshd[913]: Server listening on 0.0.0.0 port 22.
+Oct 10 14:51:44 jason-sa login[934]: login on ttyv0 as jason
+Oct 10 14:51:56 jason-sa sshd[946]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 58517 ssh2
+Oct 10 14:51:59 jason-sa sshd[949]: Received disconnect from 10.0.2.2 port 58517:11: disconnected by user
+Oct 10 14:51:59 jason-sa sshd[949]: Disconnected from user jason 10.0.2.2 port 58517
+Oct 10 14:52:06 jason-sa sshd[954]: Invalid user abcd from 10.0.2.2 port 58518
+Oct 10 14:52:06 jason-sa sshd[954]: Postponed keyboard-interactive for invalid user abcd from 10.0.2.2 port 58518 ssh2 [preauth]
+Oct 10 14:52:09 jason-sa sshd[954]: error: PAM: Authentication error for illegal user abcd from 10.0.2.2
+Oct 10 14:52:09 jason-sa sshd[954]: Failed keyboard-interactive/pam for invalid user abcd from 10.0.2.2 port 58518 ssh2
+Oct 10 14:52:09 jason-sa sshd[954]: Postponed keyboard-interactive for invalid user abcd from 10.0.2.2 port 58518 ssh2 [preauth]
+Oct 10 14:52:13 jason-sa sshd[954]: error: PAM: Authentication error for illegal user abcd from 10.0.2.2
+Oct 10 14:52:13 jason-sa sshd[954]: Failed keyboard-interactive/pam for invalid user abcd from 10.0.2.2 port 58518 ssh2
+Oct 10 14:52:13 jason-sa sshd[954]: Postponed keyboard-interactive for invalid user abcd from 10.0.2.2 port 58518 ssh2 [preauth]
+Oct 10 14:52:15 jason-sa sshd[954]: error: PAM: Authentication error for illegal user abcd from 10.0.2.2
+Oct 10 14:52:15 jason-sa sshd[954]: Failed keyboard-interactive/pam for invalid user abcd from 10.0.2.2 port 58518 ssh2
+Oct 10 14:52:15 jason-sa sshd[954]: Connection reset by invalid user abcd 10.0.2.2 port 58518 [preauth]
+Oct 10 14:52:51 jason-sa sudo[959]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+Oct 11 00:19:16 jason-sa sshd[913]: Server listening on :: port 22.
+Oct 11 00:19:16 jason-sa sshd[913]: Server listening on 0.0.0.0 port 22.
+Oct 11 00:19:25 jason-sa login[934]: login on ttyv0 as jason
+Oct 11 00:19:49 jason-sa sudo[946]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat auth.log
+Oct 11 00:19:57 jason-sa sudo[950]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat auth.log
+Oct 11 00:20:09 jason-sa sudo[955]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat auth.log
+Oct 11 00:20:52 jason-sa sshd[959]: error: PAM: Authentication error for jason from 10.0.2.2
+Oct 11 00:20:55 jason-sa sshd[959]: Connection reset by authenticating user jason 10.0.2.2 port 56670 [preauth]
+Oct 11 00:21:13 jason-sa sudo[964]:    jason : TTY=ttyv0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cat auth.log
+Oct 11 00:22:06 jason-sa sshd[975]: Accepted keyboard-interactive/pam for jason from 10.0.2.2 port 56679 ssh2
+Oct 11 00:22:31 jason-sa sshd[983]: error: PAM: Authentication error for root from 10.0.2.2
+Oct 11 00:22:33 jason-sa syslogd: last message repeated 2 times
+Oct 11 00:22:33 jason-sa sshd[983]: Connection reset by authenticating user root 10.0.2.2 port 56680 [preauth]
+Oct 11 00:22:36 jason-sa sshd[988]: error: PAM: Authentication error for root from 10.0.2.2
+Oct 11 00:22:38 jason-sa syslogd: last message repeated 2 times
+Oct 11 00:22:38 jason-sa sshd[988]: Connection reset by authenticating user root 10.0.2.2 port 56681 [preauth]
+Oct 11 00:22:41 jason-sa sshd[993]: error: PAM: Authentication error for root from 10.0.2.2
+Oct 11 00:22:43 jason-sa syslogd: last message repeated 2 times
+Oct 11 00:22:43 jason-sa sshd[993]: Connection reset by authenticating user root 10.0.2.2 port 56682 [preauth]
+Oct 11 00:22:45 jason-sa sshd[998]: error: PAM: Authentication error for root from 10.0.2.2
+Oct 11 00:22:46 jason-sa syslogd: last message repeated 2 times
+Oct 11 00:22:46 jason-sa sshd[998]: Connection reset by authenticating user root 10.0.2.2 port 56683 [preauth]
+Oct 11 00:22:51 jason-sa su[1004]: jason to root on /dev/pts/0
+Oct 11 00:24:08 jason-sa sshd[1008]: error: PAM: Authentication error for jason from 10.0.2.2
+Oct 11 00:24:09 jason-sa syslogd: last message repeated 2 times
+Oct 11 00:24:09 jason-sa sshd[1008]: Connection reset by authenticating user jason 10.0.2.2 port 56684 [preauth]
+Oct 11 00:26:02 jason-sa sudo[1019]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/rm auth.log tmp.log
+Oct 11 00:26:24 jason-sa sudo[1022]:    jason : TTY=pts/0 ; PWD=/usr/home/jason ; USER=root ; COMMAND=/bin/cp /var/log/auth.log auth.log
